@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+p, button {
+    align-self: center;
+}
+
+body {
+    background-color: rgb(207, 207, 207);
+    width: 1000px;
+}
+
+main {
+    background-image: url(photo-457881.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    padding: 200px 100px;
+}
+
+form {
+    display: block;
+    width: 60%;
+    margin: 15px auto;
+}
+
+input[type=text] {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+}
+
+input[type=submit], button {
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white; 
+}
+
+input[type=submit], input[type=text], button {
+    border: none;
+    border-radius: 4px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+i {
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.iconhead {
+    margin-bottom: 10px;
+}
