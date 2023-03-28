@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.object-login, .object-register {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    width: 400px;
+    height: 600px;
+}
+
+.object-login {
+    background-color: rgb(240, 240, 240);
+    margin-left: 50px;
+}
+
+.object-register {
+    background: linear-gradient(140deg, black 0%, rgb(117, 8, 160) 70%);;
+    margin-left: 450px;
+}
+
+.head-left {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#email, #pwd, #login {
+    padding: 10px;
+    border: none;
+    width: 90%;
+}
+
+#email, #pwd {
+    background-color: rgb(220, 220, 220);
+}
+
+#login {
+    background-color: rgb(117, 8, 160);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#rem, #forgot {
+    position: absolute;
+}
+
+#rem {
+    left: 40px;
+}
+
+#forgot {
+    right: 40px;
+}
+
+.line, #connect {
+    display: inline-block;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color:rgb(200, 200, 200);
+    
+}
+
+#connect {
+    background-color: rgb(240, 240, 240);
+    padding: 13px;
+    position: absolute;
+    left: 33%;
+    top: 67%;
+    z-index: 1;
+}
+
+table {
+    margin-top: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 20px;
+    height: 30px;
+}
+
+#twetter {
+    padding-top: 5px;
+}
+
+img {
+    width: 50%;
+}
+
+#user-add {
+    width: 25%;
+    margin-top: 150px;
+}
+
+.head-right, .text-right {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-right {
+    margin: 10px;
+}
+
+.register {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.text-right {
+    display: inline-block;
+}
+
+#arrow {
+    display: inline-block;
+    width: 13%;
+    margin-left: 15px;
+    margin-bottom: -5px;
+}
