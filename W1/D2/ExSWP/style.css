@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    background-color: black;
+    height: 60px;
+}
+
+i, a {
+    margin: 15px;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    color: white;
+}
+
+.nav {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+main {
+    height: 100px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    padding: 15px;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+}
