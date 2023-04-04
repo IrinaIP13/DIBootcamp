@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+  }
+
+  body {
+    height: 1000px;
+    width: 100vw;
+    background-image: url(1644963085_3-phonoteka-org-p-fon-dlya-prezentatsii-karta-mira-3.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+header {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.inf {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inf h1 {
+    color: rgb(54, 64, 255);
+}
+
+.inf p {
+    font-size: 0.5em;
+}
+
+@media only screen and (max-width: 700px) {
+    .inf {
+      flex-direction: column;
+    }
+    .eisenberg, .anestopoulos, .tsang {
+        margin-top: 100px;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+.block {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eisenberg {
+    top: 300px;
+    left: 50px;
+}
+
+.anestopoulos {
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tsang {
+    top: 350px;
+    right: 50px;
+}
+
+.color {
+    width: 100%;
+    height: 120px;
+}
+
+.rose {
+    background-color: rgb(243, 113, 113);
+}
+
+.violet {
+    background-color: rgb(183, 138, 226);
+}
+
+.green {
+    background-color: rgb(100, 200, 167);
+}
+
+.avatar img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+.text-review {
+    margin: 30px;
+    text-align: left;
+    color: gray;
+}

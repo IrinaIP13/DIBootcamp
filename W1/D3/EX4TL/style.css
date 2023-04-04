@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+
+  body {
+    background-color: rgb(242, 242, 242);
+  }
+
+/* HEADER */
+
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 1px rgb(165, 165, 165);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .leftnav img {
+    height: 40px; 
+    margin-top: 5px;  
+  }
+
+  .leftnav, .rightnav {
+    display: flex;
+    align-items: center;
+  }
+  
+  header * {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #signin {
+    padding: 5px 10px;
+    background-color: white;
+    border-color: rgb(20, 138, 207);
+    color: rgb(20, 138, 207);
+  }
+
+  a {
+    text-decoration: none;
+    color: #74a0b1;
+  }
+
+  a:hover {
+    color: rgb(44, 67, 86);
+  }
+
+  /* FORM */
+
+  form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 42px;
+  }
+  input {
+    height: 42px;
+    width: 0;
+    padding: 0 42px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    right: 0;
+    z-index: 2;
+  }
+  input:focus {
+    width: 300px;
+    z-index: 1;
+    border-bottom: 2px solid #c8c8c8;
+  }
+  #seach {
+    background:none;
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+  #seach:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #c8c8c8;
+  }
+
+ /* MAIN */
+
+ main {
+    /* border: white solid; */
+    text-align: center;
+    width: 50%;
+    margin: 30px auto;
+ }
+
+ #cantry {
+    margin: 10px;
+    padding: 5px;
+    background: none;
+    border-color: rgb(20, 138, 207);
+    font-weight: 600;
+    color: rgb(20, 138, 207);
+ }
+
+ .container-flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+ .box {
+    background-color: white;
+    width: 220px;
+    height: 600px;
+ }
+
+ .popular, .box, .blueblock, .questions {
+    border-radius: 5px 5px 0px 0px;
+ }
+
+ .popular {
+    padding: 5px;
+    margin-top: -27px;
+    background-color: rgb(20, 138, 207);
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+ }
+
+ .whiteblock {
+    padding: 10px;
+ }
+
+ .whiteblock img {
+    width: 40%;
+ }
+
+ .italic {
+    font-size: 10px;
+    font-style: italic;
+ }
+
+ .price {
+    font-size: 3em;
+ }
+
+ .freetrial {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+ }
+
+ .getintouch {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+ }
+
+ .getintouch ~ .italic {
+    color: white;
+ }
+
+ .blueblock {
+    background-color: rgb(24, 66, 94);
+    height: 100%;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+ }
+
+ .line {
+    height: 0.5px;
+    background-color: white;
+ }
+
+ .questions {
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(20, 138, 207);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+ }
+
+ @media only screen and (max-width: 944px) {
+    .leftnav, .rightnav {
+      flex-direction: column;
+    }
+    header {
+        height: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 1320px) {
+    main {
+      width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    main {
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    .leftnav img, .rightnav a {
+      display: none;
+    }
+    header {
+        flex-direction: column;
+    }
+    input:focus {
+        width: 100px;
+      }
+    .rightnav {
+        flex-direction: row;
+    }
+    #signin {
+        width: 50px;
+        padding: 1px 2px;
+        font-size: 9px;
+      }  
+  }
+
+  
+
+
+
+
+
