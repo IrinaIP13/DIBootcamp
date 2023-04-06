@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+HTML {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  position: absolute;
+}
+ 
+.container {
+  width: 150px;
+  height: 100vh;
+  background-image:
+   linear-gradient(#ffffff 3px, transparent 3px), 
+   linear-gradient(90deg, #ffffff 3px, transparent 3px),
+   linear-gradient(rgb(242, 110, 22) 50px, rgb(246, 198, 65) 50px, rgb(246, 198, 65) 100px, rgb(88, 29, 0) 100px),
+   linear-gradient(#ffffff 3px, transparent 3px), 
+   linear-gradient(90deg, #ffffff 3px, transparent 3px),
+   linear-gradient(rgb(246, 198, 65) 50px, rgb(88, 29, 0) 50px, rgb(88, 29, 0) 100px, rgb(242, 110, 22) 100px),
+   linear-gradient(#ffffff 3px, transparent 3px), 
+   linear-gradient(90deg, #ffffff 3px, transparent 3px),
+   linear-gradient(rgb(88, 29, 0) 50px, rgb(242, 110, 22) 50px, rgb(242, 110, 22) 100px, rgb(246, 198, 65) 100px);
+   background-size:50px 50px, 50px 50px, 50px 150px, 50px 50px, 50px 50px, 50px 150px, 50px 50px, 50px 50px, 50px 150px;
+   background-position:0px 0px, 0px 0px, 0px 0px, 50px 0px, 50px 0px, 50px 0px, 100px 0px, 100px 0px, 100px 0px;
+   background-repeat: repeat-y;
+ }

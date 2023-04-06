@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  HTML {
+    height: 100%;
+  }
+  
+  BODY {
+    background: 
+    linear-gradient(#ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em),
+    linear-gradient(#ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em)0 5em,
+    linear-gradient(#ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em)0 10em,
+    linear-gradient(#ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em)0 15em,
+    linear-gradient(90deg, #ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em),
+    linear-gradient(90deg, #ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em) 5em,
+    linear-gradient(90deg, #ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em) 10em,
+    linear-gradient(90deg, #ffffff 0.3em, rgba(0, 0, 0, 0) 0.3em) 15em,
+    linear-gradient(90deg, #454545c8 10em, rgba(141, 141, 141, 0.288) 10em) 5em 0,
+    linear-gradient(90deg, #e7e7e7 10em, rgb(0, 0, 0) 10em); 
+    background-color: white;
+    background-size: 20em 20em;
+    background-repeat: repeat;
+    font: 16px/2 "Trebuchet MS", Verdana, sans-serif;
+  }

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  HTML {
+    height: 100%;
+  }
+  
+  BODY {
+    background: linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(220, 20, 60, 0.5) 60%), 
+    linear-gradient(90deg, rgba(0, 0, 0, 0) 60%, rgba(220, 20, 60, 0.5) 60%);
+    background-size: 6em 6em;
+  }

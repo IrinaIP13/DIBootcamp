@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: black solid;
+    margin: 20px;
+}
+
+body {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.w {
+    display: flex;
+    align-items: center;
+}
