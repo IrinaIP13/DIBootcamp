@@ -1,0 +1,54 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.job-brand {
+    color: chartreuse;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    margin: 0;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: yellowgreen;
+}
+
+input::placeholder, .cities {
+    font-size: 0.8em;
+    line-height: 24px;
+  }
+
+.yellowgreen, .icon-plus {
+    color: yellowgreen;
+}
+
+.b-color {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.icon-jobs {
+    font-size: 36px;
+}
+
+.line {
+    border-bottom: 2px solid;
+    width: 20px;
+    margin: 10px auto;
+}
+
+.icon-fire {
+    color: red;
+}
+
+footer {
+    background-color: rgb(219, 219, 219);
+}
+

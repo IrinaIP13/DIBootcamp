@@ -27,78 +27,206 @@
   </head>
 
   <body>
-    <div
-      class="jumbotron"
+    <div class="jumbotron"
       style="
         background-image: url(men-and-women-sitting-and-waiting-for-interview.jpg);
-        height: 80vh;
-        background-size: cover;
-      ">
-    <div
-      class="jumbotron"
+        height: 70vh;
+        background-size: cover;">
+    <div class="jumbotron"
       style="
         background-color: black;
-        height: 80vh;
+        height: 70vh;
         background-size: cover;
-        opacity: 70%;
-      ">
+        opacity: 70%;">
     </div>
-    </div>
-    <header>
-      <nav>
-        <ul class="nav fixed-top d-flex justify-content-center align-items-center">
-          <li class="nav-item px-5">
-              <p class="text-light">INTENCE 
-                <span class="job-brand">Job Brand</span></p>
+  </div>
+          <div class="position-absolute top-50 start-50 translate-middle text-center" style="height:20rem;">
+              <h1 class="text-white">Build Your Future</h1><br>
+              <p class="text-white">We offer <span class="yellowgreen">2,989 </span>job vacancies right now!</p><br>
+              <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" name="vacancy" class="form-control" id="vacancy" placeholder="Job vacancy or Company">
+                    </div>
+                    <div class="col-3">
+                        <select class="form-select cities" id="City">
+                          <option selected>City...</option>
+                          <option value="Tel-Aviv">Tel-Aviv</option>
+                          <option value="Bat Yam">Bat Yam</option>
+                          <option value="Holon">Holon</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                      <button type="button" class="btn b-color w-100">Find job</button>
+                    </div>
+                </div>
+              </div>
+          </div>
+    <header class="position-absolute top-0 Container w-100">
+      <div class="row">
+        <div class="col-1"></div>
+        <nav class="col-10">
+          <ul class="nav align-items-center justify-content-center">
+            <li class="nav-item px-5">
+                <p class="text-light">INTENCE
+                  <span class="job-brand">Job Brand</span></p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Fine a job</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Offer a job</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light pe-5" href="#">Blog</a>
+            </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-light ps-5" href="#">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Fine a job</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">or</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Offer a job</a>
+            <a class="nav-link text-light" href="#">Register</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Pages</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light pe-5" href="#">Blog</a>
-          </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light ps-5" href="#">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">or</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#">Register</a>
-        </li>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+        <div class="col-1"></div>
+      </div>
     </header>
     <main>
-      <div class="container d-flex">
-        <div class="row align-items-center" style="height: 65vh;">
-            <div class="col-5 mx-auto text-center">
-                <h1 class="text-white">Build Your Future</h1>
-                <p>We offer <span>2,989 </span>job vacancies right now!</p>
-                <button type="button" class="btn btn-primary">Get Them Now</button>
-                <button type="button" class="btn btn-outline-light">See Features</button>
-            </div>
+      <div class="b-color Container w-100">
+        <div class="row text-light text-center py-3">
+          <div class="col-2 border-end">
+            <i class="icon-jobs bi bi-heart-pulse-fill"></i> <br> Halthcare
+            <div class="line"></div></div>
+          <div class="col-2 border-end">
+            <i class="icon-jobs bi bi-car-front-fill"></i> <br> Auto Jobs
+            <div class="line"></div></div>
+          <div class="col-2 border-end">
+            <i class="icon-jobs bi bi-building"></i> <br> Construction
+            <div class="line"></div></div>
+          <div class="col-2 border-end">
+            <i class="icon-jobs bi bi-cup-straw"></i> <br> Food Service
+            <div class="line"></div></div>
+          <div class="col-2 border-end">
+            <i class="icon-jobs bi bi-globe-central-south-asia"></i> <br> Logistic
+            <div class="line"></div></div>
+          <div class="col-2 border-end">
+            <i class="icon-jobs bi bi-cash-coin"></i> <br> Finance
+            <div class="line"></div></div>
         </div>
-    </div>
+      </div>
+      <div>
+        <h1 class="text-center mt-5">Latest Jobs</h1>
+        <div class="line"></div>
+        <table class="table w-75 m-auto text-center align-middle">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Date</th>
+              <th scope="col">Company</th>
+              <th scope="col">Job Vacancy</th>
+              <th scope="col">City</th>
+              <th scope="col">Salery</th>
+              <th scope="col">Employment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><i class="icon-fire bi bi-fire"></i></th>
+              <td>14.04.2023 12:18pm</td>
+              <td><img class="w-50" src="no_logo_company.png" alt="logo_company"></td>
+              <td class="yellowgreen">FrontEnd Developer</td>
+              <td>Tel-Aviv</td>
+              <td>30000</td>
+              <td>Full Time</td>
+            </tr>
+            <tr>
+              <th scope="row"><i class="icon-fire bi bi-fire"></i></th>
+              <td>13.04.2023 10:03pm</td>
+              <td><img class="w-50" src="no_logo_company.png" alt="logo_company"></td>
+              <td class="yellowgreen">Project Manager</td>
+              <td>Holon</td>
+              <td>15000</td>
+              <td>Full Time</td>
+            </tr>
+            <tr>
+              <th scope="row"><i class="icon-plus bi bi-plus-lg"></i></th>
+              <td>12.04.2023 17:37pm</td>
+              <td><img class="w-50" src="no_logo_company.png" alt="logo_company"></td>
+              <td class="yellowgreen">Business Analyst</td>
+              <td>Tel-Aviv</td>
+              <td>25000</td>
+              <td>Full Time</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>12.04.2023 16:22pm</td>
+              <td><img class="w-50" src="no_logo_company.png" alt="logo_company"></td>
+              <td class="yellowgreen">Food Delivery</td>
+              <td>Bat Yam</td>
+              <td>10000</td>
+              <td>Full Time</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>12.04.2023 10:15pm</td>
+              <td><img class="w-50" src="no_logo_company.png" alt="logo_company"></td>
+              <td class="yellowgreen">FullStack Developer</td>
+              <td>Tel-Aviv</td>
+              <td>35000</td>
+              <td>Full Time</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn b-color w-25 my-5">VIEW ALL</button></div>
+      </div>
     </main>
-    <footer></footer>
+    <footer class="p-5">
+      <h1 class="text-center">Wy People Ghoose Us</h1>
+        <div class="line pt-3"></div>
+        <div class="container p-3">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 d-flex">
+              <div class="px-3">
+                <h6><i class="bi bi-person-check-fill icon-plus"></i> VERIFIED EMPLOYERS</h6>
+                <p>We created this space to provide easy access to learning 
+                  opportunities and resources for easier employment.
+                </p>
+              </div>
+              <div class="px-3">
+                <h6><i class="bi bi-bar-chart-line-fill icon-plus"></i> DEMANDED VACANCIES</h6>
+                <p>We created this space to provide easy access to learning 
+                  opportunities and resources for easier employment.
+                </p>
+              </div>
+              <div class="px-3">
+                <h6><i class="bi bi-calendar3 icon-plus"></i> EMPLOYMENT BLOG</h6>
+                <p>We created this space to provide easy access to learning 
+                  opportunities and resources for easier employment.
+                </p>
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+    </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
