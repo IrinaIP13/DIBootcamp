@@ -1,0 +1,32 @@
+.fon-gray {
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
+
+.some {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: gray;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+li {
+    list-style-type: none;
+    color: rgb(1, 105, 209);
+    font-weight: 500;
+}
+
+li, .linetv {
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.linetv {
+    border-top: 3px groove rgba(255, 255, 255, 0.379);
+}
+
+.image {
+    /* border: 6px solid white; */
+    height: 150px;
+}
