@@ -1,4 +1,4 @@
-let words = 'Hello, World, in, a, frame'
+let words = prompt('Enter words separated by commas')
 let arrWords = words.split(',')
 arrTrim();
 let max = maxWords()
