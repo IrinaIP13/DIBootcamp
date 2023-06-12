@@ -6,6 +6,7 @@ function playTheGame() {
     let text = confirm('Would you like to play the game?')
     if (text==false) {
         alert('No problem, Goodbye')
+        return
     } else {
         do {
         userNumber = +prompt('Enter a number between 0 and 10') 
@@ -35,15 +36,13 @@ function checkNum() {
     }
 
 function compareNumbers(x, y){
-    if (x==y) { 
-        if (counter>=3) {alert('out of chances'); return}
-        alert('WINNER')
-        return counter++
-    } else  { if (x>y)
-                {userNumber = +prompt('Your number is bigger then the computer\'s, guess again')}
-                else {userNumber = +prompt('Your number is smaller then the computer\'s, guess again')};
+    if (x==y) {       
+        return alert('WINNER')
+    } else  {x>y ? userNumber = +prompt('Your number is bigger then the computer\'s, guess again')
+            : userNumber = +prompt('Your number is smaller then the computer\'s, guess again')};
+            if (++counter>=3) {alert('out of chances') 
+                                return counter = 0}
             if (checkNum())
                 compareNumbers(userNumber, computerNumber)
                 else return
-            }
 }

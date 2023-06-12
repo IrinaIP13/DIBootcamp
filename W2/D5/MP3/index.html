@@ -4,14 +4,9 @@
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" href="css/style.css" />
-    <style>
-      button {
-        width: 70px;
-        height: 70px;
-      }
-    </style>
   </head>
   <body>
+    <div id="result"></div>
     <button type="button" name="button" onclick="number(1);">1</button>
     <button type="button" name="button" onclick="number(2);">2</button>
     <button type="button" name="button" onclick="number(3);">3</button>
@@ -30,6 +25,22 @@
     <button type="button" name="button" onclick="operator('*');">*</button>
     <button type="button" name="button" onclick="operator('/');">/</button>
     <button type="button" name="button" onclick="equal();">=</button>
+    <button
+      type="button"
+      name="button"
+      class="clearReset"
+      onclick="clearButton();"
+    >
+      CLEAR
+    </button>
+    <button
+      type="button"
+      name="button"
+      class="clearReset"
+      onclick="resetButton();"
+    >
+      RESET
+    </button>
     <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
