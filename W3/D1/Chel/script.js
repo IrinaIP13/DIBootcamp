@@ -7,7 +7,7 @@ const solarSystem = ['Mercury', 'Venus', 'Earth', 'Mars', 'Neptune'];
 
 for (let i = 0; i < solarSystem.length; i++) {
     let newPlanet = document.createElement('div');
-    newPlanet.setAttribute('class', 'planet');
+    newPlanet.classList.add('planet');
     newPlanet.textContent = solarSystem[i];
     solarSystem[i] = newPlanet;
 };
@@ -71,7 +71,7 @@ function createMoons(x) {
         let p = 80;
         for (let j = 0; j < x; j++) {
         const newMoon = document.createElement('div');
-        newMoon.setAttribute('class', 'moon');    
+        newMoon.classList.add('moon');    
         newMoon.style.left += `${p+=50}px`;
         m[j] = newMoon; 
     } 
