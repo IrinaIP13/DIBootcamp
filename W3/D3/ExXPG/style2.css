@@ -1,0 +1,16 @@
+body {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#paragraph {
+  position: absolute;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#paragraph:active {
+  cursor: grabbing;
+}
