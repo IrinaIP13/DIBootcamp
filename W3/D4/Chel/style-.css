@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 0, 0);
+}
+
+h1 {
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+
+div,
+form {
+  width: 500px;
+  background-color: white;
+  margin: auto;
+}
+
+div {
+  padding: 30px;
+  font-size: 1.3em;
+}
+
+form {
+  height: 40px;
+  padding: 8px 8px 8px 16px;
+}
+
+.listTasks {
+  margin-top: 20px;
+  height: 300px;
+}
+
+#inputText,
+#buttonSubmit {
+  border: none;
+  background-color: white;
+  font-size: 1.3em;
+}
+
+#inputText {
+  width: 400px;
+  outline: none;
+}
+
+#buttonSubmit {
+  color: blue;
+  margin-left: 20px;
+}
+
+span {
+  line-height: 50px;
+}
+
+hr {
+  border: 1px solid blue;
+}
+
+.btn-amazon {
+  font-size: 1em;
+  color: red;
+  margin-right: 10px;
+}
+
+.label {
+  margin-left: 8px;
+}
